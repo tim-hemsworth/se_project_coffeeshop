@@ -2,11 +2,10 @@
     min-width: 1100px;
     max-width: 1600px;
     margin: auto;
-    font-family: 'Inter', Arial, sans-serif;
+    font-family: 'Inter', Arial, sans-serif, 'Noto Serif', 'Times New Roman', serif;;
     font-size: 16px;
     line-height: 20px;
     background-color: #FFFFFF;  
-    font-family: 'Noto Serif', 'Times New Roman', serif;
 }
 
 .header {
@@ -66,6 +65,8 @@
     line-height: 30px;
     margin: 28px 0 0;
     font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
 }
 
 .header__span-accent {
@@ -136,7 +137,7 @@
     margin: auto;
 }
 
-.recipies__video-caption {
+.recipes__video-caption {
     display: flex;
     justify-content: space-between;
     color:#FFFFFF;
