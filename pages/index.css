@@ -196,7 +196,7 @@
     color: #838383;
 }
 
-.input__name, .input__guests, .input__date, .input__email {
+.form__input_name, .form__input_guests, .form__input_date, .form__input_email {
     margin-bottom: 32px;
     padding: 0;
     height: 60px;
@@ -220,10 +220,6 @@
     line-height: 20px;
     background-color: #2f80ed;
     color: #ffffff; 
-}
-
-.form__checkbox {
-    width: 20px;
 }
 
 .form__checkbox-wrapper {
