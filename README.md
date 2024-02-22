@@ -13,4 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Ideas for updates: 
+- Perhaps add more videos on the recipies page
+- Perhaps create a feedback section for suggestions from patrons
