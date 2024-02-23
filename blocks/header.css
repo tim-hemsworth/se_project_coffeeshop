@@ -6,6 +6,7 @@
     max-height: 800px;
     height: 100vh;
     background-image: url(../images/background_header.svg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
