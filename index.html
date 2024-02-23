@@ -69,13 +69,13 @@
                         <label for="input__name" class="form__label">Name *</label>
                         <input 
                             type="text" 
-                            class="form__input form__input_name" 
+                            class="form__input" 
                             id="input__name" 
                             placeholder="Name Surname">
                         <label for="input__guests" class="form__label">Number of guests *</label>
                         <input 
                             type="number" 
-                            class="form__input form__input_guests" 
+                            class="form__input" 
                             id="input__guests" 
                             placeholder="1-8" 
                             min="1" 
@@ -83,23 +83,23 @@
                         <label for="input__date" class="form__label">Date & time *</label>
                         <input 
                             type="datetime-local" 
-                            class="form__input form__input_date" 
+                            class="form__input" 
                             id="input__date">
                         <label for="input__email" class="form__label">Your email *</label>
                         <input 
                             type="email" 
-                            class="form__input form__input_email" 
+                            class="form__input" 
                             id="input__email" 
                             placeholder="email@email.com">
                     </fieldset>
                     <button class="form__button">Book a table</button>
-                    <div class="form__checkbox-wrapper">
+                    <fieldset class="form__checkbox-wrapper">
                         <input 
                             type="checkbox" 
                             class="form__checkbox" 
                             id="form__checkbox">
-                        <label for="form__checkbox" class="form__checkbox form__checkbox_description">I agree with the terms of use</label>
-                    </div>
+                        <label for="form__checkbox" class="form__label">I agree with the terms of use</label>
+                    </fieldset>
                 </form>
             </section>
             <section class="menu" id="menu-id">
@@ -171,18 +171,12 @@
                 <div class="about__content">
                     <h2 class="about__title">About the coffeeshop</h2>
                     <div class="about__circle"></div>
-                    <div class="about__circle_animation_blurred"></div>
-                    <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
-                        tables and free WiFi.
-                        <br>
-                        <br>
-                        Our main mission is keeping guests cozy and energized. 
-                        <br>
-                        <br>
-                        Besides that, we try to reduce our environmental impact — so we
-                        don't sell single-use cups. But you can buy one of our reusable
-                        cups!</p>
-                </div>
+                    <div class="about__circle about__circle_animation_blurred"></div>
+                    <div>
+                        <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>            
+                        <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+                        <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+                    </div>
             </section>
         </main>
         <footer class="footer">

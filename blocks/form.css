@@ -18,16 +18,10 @@
     line-height: 20px;
 }
 
-.form__label::placeholder {
+.form__input::placeholder {
     font-size: 20px;
     line-height: 30px;
     color: #838383;
-}
-
-.form__input_name, .form__input_guests, .form__input_date, .form__input_email {
-    margin-bottom: 32px;
-    padding: 0;
-    height: 60px;
 }
 
 .form__input {
@@ -35,12 +29,17 @@
     width: 100%;
     padding: 0;
     border-radius: 4px;
+    margin-bottom: 32px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #838383;
+    font-family: 'Inter', Arial, sans-serif;
 }
 
 .form__button {
     width: 100%;
     margin: 0;
-    margin-top: 32px;
     height: 60px;
     border-radius: 4px;
     font-weight: 500;
@@ -59,8 +58,17 @@
     display: flex;
     justify-content: center;
     margin-top: 32px;
+    border: 0;
 }
 
 .form__checkbox_description {
     margin-left: 12px;
+    line-height: 20px;
+}
+
+.form__checkbox {
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin-right: 12px;
 }

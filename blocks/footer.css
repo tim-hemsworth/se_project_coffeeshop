@@ -12,10 +12,11 @@
 
 .footer__social-heading {
     color:#FFFFFF;
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
+    margin: 0 0 20px;
 }
 
 .footer__list {
@@ -26,15 +27,19 @@
 
 .footer__list-item {
     color:#FFFFFF;
+    padding-bottom: 16px;
 }
 
 .footer__social-link {
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color:#FFFFFF;
     text-decoration: none;
-    padding-bottom: 16px;
+}
+
+.footer__social-link:last-child {
+    padding-bottom: 0;
 }
 
 .footer__social-link:hover {
@@ -50,11 +55,16 @@
 }
 
 .footer__copyright {
-    font-family: "Inter";
+    font-family: 'Inter', Arial, sans-serif;
     font-size: 16px;
     line-height: 20px;
     color:#FFFFFF;
     margin: 0;
     padding-left: 80px;
     padding-bottom: 60px;
+}
+
+.footer__logo {
+    width: 105px;
+    height: 39px;
 }
