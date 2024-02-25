@@ -38,7 +38,7 @@
     text-decoration: none;
 }
 
-.footer__social-link:last-child {
+.footer__list-item:last-child {
     padding-bottom: 0;
 }
 
